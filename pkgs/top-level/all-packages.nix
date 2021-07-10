@@ -18091,6 +18091,8 @@ in
 
   quicksynergy = callPackage ../applications/misc/quicksynergy { };
 
+  quill = callPackage ../tools/security/quill { };
+
   qv2ray = libsForQt5.callPackage ../applications/networking/qv2ray {};
 
   qwt = callPackage ../development/libraries/qwt {};
