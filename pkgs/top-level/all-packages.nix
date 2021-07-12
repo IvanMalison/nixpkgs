@@ -31473,6 +31473,8 @@ in
 
   physlock = callPackage ../misc/screensavers/physlock { };
 
+  piclone = callPackage ../tools/backup/piclone/default.nix { };
+
   pjsip = callPackage ../applications/networking/pjsip {
     inherit (darwin.apple_sdk.frameworks) AppKit;
   };
