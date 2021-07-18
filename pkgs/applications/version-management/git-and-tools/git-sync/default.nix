@@ -5,10 +5,10 @@ stdenv.mkDerivation rec {
   version = "unstable-2021-07-14";
 
   src = fetchFromGitHub {
-    owner = "simonthum";
+    owner = "IvanMalison";
     repo = "git-sync";
-    rev = "7d3d34bf3ee2483fba00948f5b97f964b849a590";
-    sha256 = "sha256-PuYREW5NBkYF1tlcLTbOI8570nvHn5ifN8OIInfNNxI=";
+    rev = "211facfdd910f424ef11bfe900d68a28065e1f59";
+    sha256 = "sha256-kiwpWnrW9DP+IrH130Zp2SS7g9AumFseXe9q+BzbYss=";
   };
 
   nativeBuildInputs = [ makeWrapper ];
